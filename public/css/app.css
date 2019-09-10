@@ -10644,3 +10644,23 @@ a.text-dark:focus {
   }
 }
 
+.site-header {
+  background-color: rgba(0, 0, 0, 0.85);
+  margin-bottom: 40px;
+}
+
+a {
+  color: #fff;
+}
+
+a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer {
+  padding: 25px 0;
+  margin-top: 50px;
+  border-top: 1px solid #eee;
+}
+
