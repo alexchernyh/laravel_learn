@@ -24,3 +24,6 @@ Route::get('/about', 'PagesController@getAbout');
 Route::get('/messages', 'MessagesController@getMessages');
 
 Route::post('/contact/submit', 'MessagesController@submit');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
